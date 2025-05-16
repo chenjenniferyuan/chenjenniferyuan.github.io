@@ -1,0 +1,178 @@
+body {
+    background-color: rgb(242, 235, 220);
+    font-family:'Redaction';
+    font-size: 19px;
+    line-height: 21px;
+    color:rgb(0, 0, 0)
+}
+
+img{
+    width: 100%;
+    display:block
+}
+
+@font-face {
+    font-family:'Redaction';
+    src:url(Redaction-Regular.woff) format('woff');
+}
+
+/* typography */
+
+div.titletext {
+    font-size: 300px;
+    line-height: 300px;
+    font-family: 'CirrusCumulus';
+}
+
+div.largetext {
+    font-size: 100px;
+    line-height: 100px;
+    font-family: 'Redaction';
+}
+
+div.mediumtext {
+    font-size:28px;
+    line-height: 28px;
+}
+
+div.smalltext {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+div.stretchtext{
+    display:inline-block;
+    transform: scaleX(0.5);
+}
+
+div.textcenter{
+    text-align:center;
+}
+
+div.textjustify{
+    text-align-last:justify;
+}
+
+div.textindent{
+    text-indent: 100px;
+}
+
+/* margins */
+
+div.mt50 {
+    margin-top:50px;
+}
+
+div.mt100 {
+    margin-top:100px;
+}
+
+div.mb100 {
+    margin-bottom:100px;
+}
+
+div.ml50{
+    margin-left:50px;
+}
+
+div.mlauto{
+    margin-left:auto;
+}
+
+div.mrauto{
+    margin-right:auto;
+}
+
+/* padding */
+
+div.pad20{
+    padding: 20px;
+}
+
+/* colours */
+
+div.text-yellow{
+    color:rgb(235, 245, 41)
+}
+
+div.text-beige{
+    color:rgb(242, 235, 220)
+}
+
+div.swatch{
+    width:300px;
+    height:300px;
+    border-radius:10px;
+    background-color:olive;
+    margin-right:50px;
+}
+
+div.bg-yellow {
+    background-color:rgb(235, 245, 41);
+}
+
+div.bg-black {
+    background-color:rgb(0, 0, 0);
+}
+
+div.bg-beige {
+    background-color: rgb(242, 235, 220);
+}
+
+div.border-yellow {
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 10px 15px 5px black;
+}
+
+/* layout */
+div.width100{
+    width:100%;
+}
+
+div.width80{
+    width:80%;
+}
+
+div.width60{
+    width:60%;
+}
+
+div.width40{
+    width:40%;
+}
+
+div.width20{
+    width:20%;
+}
+
+div.container{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+div.flexend{
+    justify-content:flex-end;
+}
+
+div.flexcenter{
+    justify-content: center;
+}
+
+div.flexbetween{
+    justify-content: space-between;
+}
+
+div.alignstart{
+    align-items: flex-start;
+}
+
+div.overlay{
+    position:relative;
+}
+
+div.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
