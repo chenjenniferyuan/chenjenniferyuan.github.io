@@ -13,7 +13,12 @@ img{
 
 @font-face {
     font-family:'Redaction';
-    src:url(Redaction-Regular.woff) format('woff');
+    src:url(fonts/redaction-regular.woff) format('woff');
+}
+
+@font-face{
+    font-family:'CirrusCumulus';
+    src:url(fonts/cirruscumulus.woff) format ('woff');
 }
 
 /* typography */
