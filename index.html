@@ -7,22 +7,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="titletext textcenter">Designing Friction</div>
 
-    <div class="mlauto mrauto mediumtext width60 bg-yellow  textjustify">A call for friction in digital culture</div>
+    <!-- SPLASH SCREEN -->
 
-    <div class="container">
-        <div class="width40">Left hand side</div>
-        <div class="width40">Right hand side</div>
+    <div class="welcome visible">
+        <div class="titletext textcenter stretchtext">
+            Designing Friction<br>
+        </div>
     </div>
 
-    <div class="width10"></div>
+    <!-- WEBSITE START -->
+    <div class="herovideo">
+        <video class="video"> </video>
+        </div>
+        
+    <div class="fullscreen">
+        <div class="titletext textcenter text-yellow stretchtext">Designing Friction</div>
+        <div class="overlay mlauto mrauto width60">
+            <div class="titlecaption text-black textjustifylast text-black">A call for friction in digital culture</div>
+        </div>
+    </div>
 
-    <div class="width80 mediumtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, officiis illum consectetur eaque nostrum autem rem in vitae sapiente libero ab eius molestias, tempora maxime illo aspernatur nihil asperiores nobis.</div>
 
-    <div class="width80 mediumtext textindent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto expedita numquam nisi officiis necessitatibus totam delectus impedit molestias quam. Tenetur cupiditate, fugit doloribus perferendis tempore quidem dolor provident eligendi obcaecati?</div>
+    <!-- <div class="container">
+        <div class="width40">Left hand side</div>
+        <div class="width40">Right hand side</div>
+    </div> -->
+
+    <div class="width40 mediumtext ml50 mt50">As designers, entrepreneurs and architects of digital culture we feel the urge to refocus how we deal with our digital futures. </div>
+    
+    <div class="container mt300 mb300">
+        <div class="width35 mediumtext center border-yellow textjustify">DESIGNING FRICTION <br> is a proposal to change the way we think when producing or interacting with digital technology.</div>
+    </div>
+
+    <div class="largetext ml50">WHAT</div>
+    <div class="largetext ml20pc mt300">IS</div>
+    <div class="largetext ml20pc mt300">IS</div>
+
+    <!-- <div class="width80 mediumtext textindent"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto expedita numquam nisi officiis necessitatibus totam delectus impedit molestias quam. Tenetur cupiditate, fugit doloribus perferendis tempore quidem dolor provident eligendi obcaecati?</div> -->
 
 
 
+
+    <!-- SCRIPTS AND VIDEO HOSTING -->
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const video = document.querySelector(".video");
+        const videoSrc = "https://stream.mux.com/7sRixwPqKNuUS700tcjg9q500FUWRLo02TUmOk5IhMVsnw.m3u8";
+    
+        if (video.canPlayType("application/vnd.apple.mpegurl")) {
+          // Native support (Safari, iOS)
+          video.src = videoSrc;
+        } else if (Hls.isSupported()) {
+          // hls.js fallback (Chrome, Firefox)
+          const hls = new Hls();
+          hls.loadSource(videoSrc);
+          hls.attachMedia(video);
+        } else {
+          console.error("HLS not supported in this browser");
+        }
+      });
+    </script>    
+
+<script src="class-changes.js"></script>
+<script src="script.js"></script>
 </body>
+
 </html>
