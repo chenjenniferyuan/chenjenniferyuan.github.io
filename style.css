@@ -21,6 +21,21 @@ img, video{
     src:url(fonts/redaction-regular.woff) format('woff');
 }
 
+@font-face {
+    font-family: 'Redaction20';
+    src:url(fonts/redaction20-regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Redaction50';
+    src:url(font/redaction50-regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Redaction70';
+    src:url(font/redaction70-regular.woff) format('woff')
+;}
+
 @font-face{
     font-family:'CirrusCumulus';
     src:url(fonts/cirruscumulus.woff) format('woff');
@@ -41,6 +56,14 @@ div.herovideo video{
 }
 
 /* typography */
+.redaction20 {
+    font-family:'Redaction20';
+}
+
+div.proposaltitle {
+    font-size: 2500px;
+    line-height: 1500px;
+}
 
 div.titletext {
     font-size: 400px;
@@ -54,10 +77,15 @@ div.titlecaption {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+div.subtitle {
+    font-size: 40px;
+    line-height:40px;
+    font-style:italic;
+}
+
 div.largetext {
     font-size: 100px;
     line-height: 100px;
-    font-family: 'Redaction';
 }
 
 div.mediumtext {
@@ -70,9 +98,14 @@ div.smalltext {
     line-height: 20px;
 }
 
-div.stretchtext{
+div.stretchtexthalf{
     display:inline-block;
     transform: scaleX(0.5);
+}
+
+div.stretchtextproposal{
+    display:inline-block;
+    transform: scaleX(0.2);
 }
 
 div.textcenter{
@@ -97,12 +130,34 @@ div.stretchtext{
     transform: scaleX(0.7);
 }
 
+div.alignright{
+    text-align: right;
+}
+
+div.aligncenter{
+    text-align: center;
+}
+
+em{
+    font-style:italic;
+    text-decoration: underline;
+    background-color: rgb(235, 245, 41);
+}
+
+
+span.invis{
+    opacity:0%
+}
+
 /* margins */
+
+div.mtneg32point2{
+    margin-top:-32.2px;
+}
 
 div.mt50 {
     margin-top:50px;
 }
-
 
 div.mt100 {
     margin-top:100px;
@@ -110,6 +165,26 @@ div.mt100 {
 
 div.mt300{
     margin-top:300px;
+}
+
+div.mt400 {
+    margin-top:400px;
+}
+
+div.mt500 {
+    margin-top:500px;
+}
+
+div.mt700{
+    margin-top:700px;
+}
+
+div.mt800{
+    margin-top:800px;
+}
+
+div.negmt200{
+    margin-top:-200px;
 }
 
 div.mb100 {
@@ -120,12 +195,40 @@ div.mb300{
     margin-bottom:300px;
 }
 
-div.ml50{
-    margin-left:50px;
+div.mb400{
+    margin-bottom:400px;
+}
+
+div.mb500{
+    margin-bottom: 500px;
+}
+
+div.mb700{
+    margin-bottom: 700px;
+}
+
+div.ml3pc{
+    margin-left:3%;
+}
+
+div.ml10pc{
+    margin-left:10%;
 }
 
 div.ml20pc{
     margin-left:20%;
+}
+
+div.ml30pc{
+    margin-left:30%;
+}
+
+div.ml40pc{
+    margin-left:40%;
+}
+
+div.ml60pc{
+    margin-left:60%;
 }
 
 div.mlauto{
@@ -134,6 +237,10 @@ div.mlauto{
 
 div.mrauto{
     margin-right:auto;
+}
+
+div.mr50{
+    margin-right:50px;
 }
 
 /* padding */
@@ -182,6 +289,7 @@ div.border-yellow {
 
 /* layout */
 
+
 div.overlay {
     position: absolute;
     z-index: 2;
@@ -195,6 +303,19 @@ div.fullscreen {
     align-items: center;
     justify-content: center;
     background-color: rgb(242, 235, 220);   
+}
+
+div.proposalscreen {
+    width:100vw;
+    height:100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.vw100{
+    width: 100vw;
 }
 
 div.width100{
@@ -213,8 +334,12 @@ div.width40{
     width:40%;
 }
 
-div.width35{
+div.width30{
     width:30%;
+}
+
+div.width25{
+    width:25%;
 }
 
 div.width20{
@@ -256,6 +381,9 @@ div.center{
   margin: auto;
 }
 
+div.absolute{
+    position:absolute
+}
 
 /* folio marks */
 
@@ -288,3 +416,54 @@ div.folio{
     display: flex;
     flex-wrap: wrap;
   }
+
+/* hover image */
+
+.floating-image {
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    width: 400px;
+    display: none;
+    pointer-events: none ;
+    cursor: pointer;
+  }
+
+.hover-text:hover + .floating-image {
+    display: block;
+}
+
+/* sticky word */
+
+div.sticky-is {
+    position: sticky;
+    top: 300px;
+}
+
+div.sticky-friction1{
+    position:sticky;
+    top: 190px;
+}
+
+div.sticky-friction2{
+    position:sticky;
+    top: 400px;
+}
+
+div.sticky-container{
+    height: 600px; /* Limit the scroll area */
+    overflow: hidden;
+    position: relative;
+}
+
+/* clickable */
+
+.clickable {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* debug */
+div.debug{
+    border: red, solid
+}
