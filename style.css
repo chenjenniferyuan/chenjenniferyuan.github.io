@@ -9,7 +9,7 @@ body {
     font-family:'Redaction';
     font-size: 19px;
     line-height: 21px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 body.unlocked {
