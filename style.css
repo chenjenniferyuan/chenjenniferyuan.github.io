@@ -11,6 +11,11 @@ body {
     line-height: 21px;
 }
 
+body.dark-mode {
+    background-color: black;
+    color: rgb(242, 235, 220);
+}
+
 img, video{
     width: 100%;
     display:block

@@ -1,4 +1,7 @@
 const classChanges = [
+
+  { time: 63, target: "body", add: "dark-mode" },
+
   { time: 3, target: ".changeme", add: "show" },
   { time: 9, target: ".changeme", remove: "show" },
   { time: 9, target: ".changeme", add: "hidden" },
