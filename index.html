@@ -32,7 +32,7 @@
         <div class="width30 mediumtext mlauto mrauto aligncenter">As designers, entrepreneurs and architects of digital culture we feel the urge to refocus how we deal with our digital futures. </div>
     </div>
     
-    <div class="container mt300 mb400">
+    <div class="fullscreen mb300">
         <div class="width30 mediumtext center border-black textjustify"> <div class="redaction20">DESIGNING FRICTION</div> <br> is a proposal to change the way we think when producing or interacting with digital technology.</div>
     </div>
     
@@ -55,27 +55,34 @@
     </div>
 
     <div class="container mt50 justifycenter">
-        <div class="width10"><img src="images/1-sight.svg" alt="eye icon"></div>
-        <div class="width10"><img src="images/2-sound.svg" alt="sound icon"></div>
-        <div class="width10"><img src="images/3-smell.svg" alt="nose icon"></div>
-        <div class="width10"><img src="images/4-taste.svg" alt="tongue icon"></div>
-        <div class="width10"><img src="images/5-touch.svg" alt="hand icon"></div>
-        <div class="width10"><img src="images/6-air.svg" alt="air icon"></div>
+        <div class="width10"><img src="images/1-sight.svg" alt="eye icon" class="filter-yellow sight"></div>
+        <div class="width10"><img src="images/2-sound.svg" alt="sound icon" class="filter-yellow sound"></div>
+        <div class="width10"><img src="images/3-smell.svg" alt="nose icon" class="filter-yellow smell"></div>
+        <div class="width10"><img src="images/4-taste.svg" alt="tongue icon" class="filter-yellow taste"></div>
+        <div class="width10"><img src="images/5-touch.svg" alt="hand icon" class="filter-yellow touch"></div>
+        <div class="width10"><img src="images/6-air.svg" alt="air icon" class="filter-yellow air"></div>
     </div>
     <div class="mediumtext width30 aligncenter mlauto mrauto mt200 mb200 ">All senses, elements and <br> emotions play a role: <br> <br> sight, sound, smell, taste, touch, air, earth, temperature, agitation, passion, joy, sadness...</div>
     <div class="container mb200 justifycenter">
-        <div class="width10"><img src="images/7-earth.svg" alt="earth icon"></div>
-        <div class="width10"><img src="images/8-temperature.svg" alt="sun icon"></div>
-        <div class="width10"><img src="images/9-agitation.svg" alt="fire icon"></div>
-        <div class="width10"><img src="images/10-passion.svg" alt="heart icon"></div>
-        <div class="width10"><img src="images/11-joy.svg" alt="happy face icon"></div>
-        <div class="width10"><img src="images/12-sadness.svg" alt="sad face icon"></div>
+        <div class="width10"><img src="images/7-earth.svg" alt="earth icon" class="filter-yellow earth"></div>
+        <div class="width10"><img src="images/8-temperature.svg" alt="sun icon" class="filter-yellow temperature"></div>
+        <div class="width10"><img src="images/9-agitation.svg" alt="fire icon" class="filter-yellow agitation"></div>
+        <div class="width10"><img src="images/10-passion.svg" alt="heart icon" class="filter-yellow passion"></div>
+        <div class="width10"><img src="images/11-joy.svg" alt="happy face icon" class="filter-yellow joy"></div>
+        <div class="width10"><img src="images/12-sadness.svg" alt="sad face icon" class="filter-yellow sadness"></div>
+    </div>
+
+    <div class="width25 overlay mediumtext aligncenter mt300 ml30pc">With movement comes friction. </div>
+    <div class="mt350 ml30pc">
+        <video class="hover-video" muted loop>
+            <source src="video/horseloop.mp4" type="video/mp4">
+          </video>
     </div>
 
 
-
+<!-- 
     <div class="width25 overlay mediumtext aligncenter mt300 ml30pc">With movement comes friction. </div>
-    <div class="width25 mt350 ml30pc"><img src="images/horse.gif" alt="horse galloping on loop"></div>
+    <div class="width25 mt350 ml30pc"><img src="images/horse.gif" alt="horse galloping on loop"></div> -->
 
 
     
@@ -154,6 +161,17 @@
         
         </script>
 
+        <!-- hover video -->
+        
+        <script>
+            const vid = document.querySelector('.hover-video');
+
+            vid.addEventListener('mouseenter', () => vid.play());
+            vid.addEventListener('mouseleave', () => {
+            vid.pause();
+            vid.currentTime = 0; // rewind
+            });
+        </script>
 
 
 <script src="class-changes.js"></script>

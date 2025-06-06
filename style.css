@@ -9,7 +9,7 @@ body {
     font-family:'Redaction';
     font-size: 19px;
     line-height: 21px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body.unlocked {
@@ -326,6 +326,10 @@ div.border-highlight {
     padding: 50px
 }
 
+div.border-dotted {
+    border: 10px dotted rgb(235, 245, 41);
+}
+
 /* layout */
 
 
@@ -521,6 +525,12 @@ div.sticky-LOF {
     top: 3%;
 }
 
+/* svgs */
+
+.filter-yellow{
+    filter: brightness(0) saturate(100%) invert(82%) sepia(95%) saturate(436%) hue-rotate(11deg) brightness(113%) contrast(92%);
+}
+
 /* triggers and effects */
 
 div.hidden{
@@ -534,6 +544,11 @@ div.show{
 div.underline{
     text-decoration: underline;
 }
+
+.hover-video {
+    width: 35%;
+    height: auto;
+  }
 
 /* debug */
 div.debug{
