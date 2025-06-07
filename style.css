@@ -70,11 +70,6 @@ div.herovideo video{
     font-family:'Redaction20';
 }
 
-div.proposaltitle {
-    font-size: 2500px;
-    line-height: 1500px;
-}
-
 div.titletext {
     font-size: 400px;
     line-height: 400px;
@@ -111,11 +106,6 @@ div.smalltext {
 div.stretchtexthalf{
     display:inline-block;
     transform: scaleX(0.5);
-}
-
-div.stretchtextproposal{
-    display:inline-block;
-    transform: scaleX(0.2);
 }
 
 div.textcenter{
@@ -357,15 +347,6 @@ div.fullscreen {
     justify-content: center;
 }
 
-div.proposalscreen {
-    width:100vw;
-    height:100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 div.vw100{
     width: 100vw;
 }
@@ -525,6 +506,20 @@ div.sticky-LOF {
     top: 3%;
 }
 
+/* proposal */
+
+div.proposaltitle {
+    display:inline-block;
+    font-size: 50vw;
+    line-height: 1500px;
+    transform: scaleX(0.3);
+}
+
+div.proposalscreen {
+    width:100vw;
+    height:100vh;
+}
+
 /* svgs */
 
 .filter-yellow{
@@ -546,7 +541,7 @@ div.underline{
 }
 
 .hover-video {
-    width: 30%;
+    width: 35%;
     height: auto;
   }
 
