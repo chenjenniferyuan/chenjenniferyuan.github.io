@@ -36,19 +36,19 @@ img, video{
     src:url(fonts/redaction20-regular.woff) format('woff');
 }
 
-@font-face {
-    font-family: 'Redaction50';
-    src:url(font/redaction50-regular.woff) format('woff');
+@font-face{
+    font-family: 'Redaction35';
+    src:url(fonts/redaction35-regular.woff) format('woff');
 }
-
-@font-face {
-    font-family: 'Redaction70';
-    src:url(font/redaction70-regular.woff) format('woff')
-;}
 
 @font-face{
     font-family:'CirrusCumulus';
     src:url(fonts/cirruscumulus.woff) format('woff');
+}
+
+@font-face{
+    font-family:'ManifontGrotesk';
+    src:url(fonts/manifontgroteskbookdot.woff) format('woff');
 }
 
 /* hero video */
@@ -68,6 +68,14 @@ div.herovideo video{
 /* typography */
 .redaction20 {
     font-family:'Redaction20';
+}
+
+.redaction35 {
+    font-family: 'Redaction35';
+}
+
+.manifont {
+    font-family: 'ManifontGrotesk';
 }
 
 div.titletext {
@@ -441,47 +449,28 @@ div.absolute{
 
 /* folio marks */
 
-div.cover-wif{
-    position: sticky;
-    width: 30%;
-    height: 100px;
-    top: 0;
-    left: 0;
-    background-color:rgb(242, 235, 220);
-    z-index: -9;
+.scrollElement {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
 }
 
-div.cover-lof{
-    position: sticky;
-    width: 30%;
-    height: 100px;
-    top: 0;
-    left: 0;
-    background-color:rgb(242, 235, 220);
-    z-index: -7;
-}
+.scrollElement.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
 
-div.folio-df{
-    position:fixed;
-    top:20px;
-    width:100%;
-}
-
-div.folio-wif{
-    position:sticky;
+.folio-left{
     top: 20px;
-    left: 3%;
+    left: 2%;
     width: 100%;
-    z-index: -6;
-    background-color: rgb(242, 235, 220);
+    z-index: 998;
 }
 
-div.folio-lof{
-    position:fixed;
+.folio-middle{
     top: 20px;
-    left: 3%;
     width: 100%;
-    z-index: -8;
+    z-index: 998;
 }
 
 /* splash screen */
