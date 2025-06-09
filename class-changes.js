@@ -53,13 +53,19 @@ const classChanges = [
   { time: 130.5, target: ".rectangles", add: "show" },
   { time: 143.6, target: ".rectangles", remove: "show" },
 
+  { time: 147.4, target: ".philosophersstone", add: "show" },
+  { time: 156, target: ".philosophersstone", remove: "show" },
   { time: 154.1, target: ".mannequins", add: "show" },
   { time: 158.8, target: ".fellowhumans", add: "show" },
   { time: 166, target: ".mannequins", remove: "show" },
   { time: 166, target: ".fellowhumans", remove: "show" },
 
-  { time: 222.8, target: ".proposal-fullscreen", add: "show" },
-  { time: 223.8, target: ".proposal-fullscreen", remove: "show" },
+  { time: 222.8, target: "body", remove: "dark-mode" },
+  { time: 222.8, target: ".fullscreen-opaque", remove: "dark-mode" },
+  // { time: 222.8, target: ".proposal-fullscreen", add: "show" },
+  // { time: 223.8, target: ".proposal-fullscreen", remove: "show" },
+
+  
 
   // idk
   { time: 9, target: ".changeme2", add: "show" },
