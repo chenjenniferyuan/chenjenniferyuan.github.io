@@ -621,7 +621,7 @@ div.sticky-LOF {
 
 div.proposaltitle {
     display:inline-block;
-    font-size: 10000px;
+    font-size: 100vw;
     transform: scaleX(0.3);
 }
 
@@ -633,7 +633,7 @@ div.proposal-fullscreen{
     position: fixed;
     align-items: center;
     justify-content: center;
-    display: none;
+    /* display: none; */
 }
 
 div.proposal-fullscreen.show{
