@@ -58,8 +58,8 @@ const classChanges = [
   { time: 166, target: ".mannequins", remove: "show" },
   { time: 166, target: ".fellowhumans", remove: "show" },
 
-  { time: 223.2, target: ".proposal-fullscreen", add: "show" },
-  { time: 224, target: ".proposal-fullscreen", remove: "show" },
+  { time: 222.8, target: ".proposal-fullscreen", add: "show" },
+  { time: 223.8, target: ".proposal-fullscreen", remove: "show" },
 
   // idk
   { time: 9, target: ".changeme2", add: "show" },
