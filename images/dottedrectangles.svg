@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 295.18 375.94">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-dasharray: 0 5.41;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7 {
+        stroke: #e6e634;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.83px;
+      }
+
+      .st2 {
+        stroke-dasharray: 0 5.52;
+      }
+
+      .st3 {
+        stroke-dasharray: 0 5.52;
+      }
+
+      .st4 {
+        stroke-dasharray: 0 5.53;
+      }
+
+      .st5 {
+        stroke-dasharray: 0 5.46;
+      }
+
+      .st8 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st9 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st10 {
+        clip-path: url(#clippath);
+      }
+
+      .st7 {
+        stroke-dasharray: 0 5.5;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="23.31" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="23.31" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st0" x="23.31" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+  </defs>
+  <g class="st10">
+    <line class="st7" x1="279.48" y1="297.45" x2="26.94" y2="336.81"/>
+    <line class="st3" x1="24.22" y1="331.71" x2="24.22" y2="75.1"/>
+  </g>
+  <line class="st7" x1="29.65" y1="71.49" x2="282.19" y2="32.14"/>
+  <g class="st8">
+    <line class="st3" x1="284.91" y1="37.24" x2="284.91" y2="293.85"/>
+    <path class="st6" d="M284.91,296.61h0M284.91,31.72h0M24.22,72.34h0M24.22,337.23h0"/>
+  </g>
+  <line class="st5" x1="52.12" y1="57.19" x2="261.99" y2="48.51"/>
+  <line class="st3" x1="264.72" y1="53.91" x2="264.72" y2="310.53"/>
+  <line class="st5" x1="259.27" y1="313.51" x2="49.39" y2="322.19"/>
+  <line class="st3" x1="46.67" y1="316.79" x2="46.67" y2="60.17"/>
+  <path class="st6" d="M46.67,57.41h0M46.67,322.3h0M264.72,313.28h0M264.72,48.39h0"/>
+  <line class="st4" x1="74.59" y1="43.19" x2="241.79" y2="64.72"/>
+  <line class="st3" x1="244.53" y1="70.59" x2="244.53" y2="327.2"/>
+  <line class="st4" x1="239.05" y1="329.26" x2="71.85" y2="307.73"/>
+  <line class="st3" x1="69.11" y1="301.86" x2="69.11" y2="45.25"/>
+  <path class="st6" d="M69.11,42.49h0M69.11,307.38h0M244.53,329.96h0M244.53,65.07h0"/>
+  <line class="st2" x1="96.66" y1="29.65" x2="221.79" y2="80.71"/>
+  <line class="st3" x1="224.34" y1="87.27" x2="224.34" y2="343.88"/>
+  <line class="st2" x1="219.23" y1="344.55" x2="94.11" y2="293.5"/>
+  <line class="st3" x1="91.56" y1="286.93" x2="91.56" y2="30.32"/>
+  <path class="st6" d="M91.56,27.56h0M91.56,292.45h0M224.34,346.64h0M224.34,81.75h0"/>
+  <line class="st1" x1="200.23" y1="359.59" x2="115.96" y2="279.39"/>
+  <line class="st3" x1="114" y1="272.01" x2="114" y2="15.4"/>
+  <line class="st1" x1="117.92" y1="16.37" x2="202.19" y2="96.56"/>
+  <line class="st3" x1="204.15" y1="103.94" x2="204.15" y2="360.56"/>
+  <g class="st9">
+    <path class="st6" d="M204.15,363.32h0M204.15,98.42h0M114,12.64h0M114,277.53h0"/>
+  </g>
+</svg>
