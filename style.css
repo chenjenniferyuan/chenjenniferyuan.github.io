@@ -9,7 +9,7 @@ body {
     font-family:'Redaction';
     font-size: 19px;
     line-height: 21px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 body.unlocked {
@@ -26,9 +26,27 @@ img, video{
     display:block
 }
 
+a { 
+    color:black;
+    text-decoration:underline;
+}
+
+a.dark-mode{
+    color: rgb(242, 235, 220);
+}
+
+a:hover, a:focus {
+    color: rgb(235, 245, 41);
+}
+
 @font-face {
     font-family:'Redaction';
     src:url(fonts/redaction-regular.woff) format('woff');
+}
+
+@font-face{
+    font-family: 'Redaction10';
+    src:url(fonts/redaction10-regular.woff) format('woff');
 }
 
 @font-face {
@@ -51,6 +69,7 @@ img, video{
     src:url(fonts/manifontgroteskbookdot.woff) format('woff');
 }
 
+
 /* hero video */
 
 div.herovideo{
@@ -66,6 +85,10 @@ div.herovideo video{
 }
 
 /* typography */
+.redaction10 {
+    font-family:'Redaction10';
+}
+
 .redaction20 {
     font-family:'Redaction20';
 }
@@ -79,7 +102,17 @@ div.herovideo video{
     /* color:rgb(235, 245, 41); */
 }
 
+.cirruscumulus {
+    font-family: 'CirrusCumulus';
+}
+
 div.titletext {
+    font-size: 400px;
+    line-height: 400px;
+    font-family: 'CirrusCumulus';
+}
+
+div.titletext2 {
     font-size: 400px;
     line-height: 400px;
     font-family: 'CirrusCumulus';
@@ -90,6 +123,20 @@ div.titlecaption {
     line-height: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+div.titlecaption2 {
+    font-size:32px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.titlecaption2.dark-mode {
+    color: rgb(242, 235, 220);
+    font-size:32px;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 div.subtitle {
     font-size: 40px;
@@ -112,8 +159,8 @@ div.mediumtext.biggerlineheight{
 }
 
 div.smalltext {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 25px;
+    line-height: 28px;
 }
 
 div.stretchtexthalf{
@@ -156,6 +203,10 @@ em{
     /* text-decoration: underline; */
 }
 
+mark{
+    background-color: rgb(235, 245, 41);
+}
+
 span.invis{
     opacity:0%
 }
@@ -180,6 +231,10 @@ div.mt50 {
 
 div.mt100 {
     margin-top:100px;
+}
+
+div.mt150 {
+    margin-top:150px;
 }
 
 div.mt200 {
@@ -244,6 +299,10 @@ div.mb700{
 
 div.ml3pc{
     margin-left:3%;
+}
+
+div.ml5pc{
+    margin-left: 5%;
 }
 
 div.ml10pc{
@@ -475,7 +534,8 @@ div.caption{
 }
 
 div.center{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.justifycenter{
@@ -562,6 +622,58 @@ div.sticky-LOF {
     top: 3%;
 }
 
+/* dots */
+
+.dot{
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: rgb(235, 245, 41);
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    display: none;
+}
+
+.thing2dot1{
+    top: 48%;
+    left: 35%;
+}
+
+.thing2dot2{
+    top: 68%;
+    left: 14%;
+}
+
+.thing2dot3{
+    top: 83%;
+    left: 39.5%;
+}
+
+.devicesdot1{
+    top: 45%;
+    left: 69.4%;
+}
+
+.devicesdot2{
+    top: 53%;
+    left: 69.4%;
+}
+
+.devicesdot3{
+    top: 61%;
+    left: 69.4%;
+}
+
+.buddhadot1{
+    top: 47%;
+    left: 27%;
+}
+
+.buddhadot2{
+    top: 38%;
+    left: 30%;
+}
+
 /* images */
 
 .imagepopup{
@@ -615,7 +727,7 @@ div.sticky-LOF {
     width: 30%;
 }
 
-.mannequins{
+.mannequins1{
     top: 42%;
     left: 10%;
     width: 34%;
@@ -627,12 +739,46 @@ div.sticky-LOF {
     width: 32%;
 }
 
+.adamandeve{
+    top: 10%;
+    left: 75%;
+    width: 20%;
+}
+
+.mannequins2{
+    top: 49%;
+    left: 50%;
+    width: 30%;
+}
+
+.refraction{
+    top: 19%;
+    left: 52%;
+    width: 22%;
+}
+
+.tide{
+    top: 25%;
+    left: 57%;
+    width: 32%;
+}
+
 .earthrot{
     width: 7%;
+    opacity: 0;
+}
+
+.earthrot.show{
+    opacity: 1;
 }
 
 .dancingbaby{
     width: 15%;
+    opacity: 0;
+}
+
+.dancingbaby.show{
+    opacity: 1;
 }
 
 /* hover image (defunct) */
@@ -663,7 +809,7 @@ div.sticky-LOF {
 
 /* proposal */
 
-div.proposaltitle {
+div.proposal {
     display:inline-block;
     font-size: 75vw;
     transform: scaleX(0.23);
@@ -675,7 +821,6 @@ div.proposal-fullscreen{
     width:100vw;
     height:100vh;
     position: relative;
-    align-items: center;
     justify-content: center;
     display: flex;
 }
@@ -775,7 +920,156 @@ div.underline{
     -webkit-transform: rotate(45deg);
   }
 
+.verticalline.dark-mode {
+    border-left:rgb(242, 235, 220);
+}
+
+.arrow.dark-mode {
+    border: rgb(242, 235, 220);
+}
+
+/* proposal body */
+.discomfort1 {
+    opacity: 1;
+}
+
+.discomfort1.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.discomfort2 {
+    opacity: 1;
+}
+
+.discomfort2.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.discomfortimg{
+    top:10%;
+    left: 5%;
+    width:28%;
+}
+
+.timedelay1 {
+    opacity: 1;
+}
+
+.timedelay1.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.timedelay2 {
+    opacity: 1;
+}
+
+.timedelay2.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.timedelayimg{
+    top:5%;
+    left: 70%;
+    width:28%;
+}
+
+.engagethebody1 {
+    opacity: 1;
+}
+
+.engagethebody1.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.engagethebody2 {
+    opacity: 1;
+}
+
+.engagethebody2.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.engagethebodyimg{
+    top:20%;
+    left: 5%;
+    width:28%;
+}
+
+.nonpositive1 {
+    opacity: 1;
+}
+
+.nonpositive1.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+.nonpositive2 {
+    opacity: 1;
+}
+
+.nonpositive2.highlight{
+    background-color: rgb(235, 245, 41)
+}
+
+
+.nonpositiveimg{
+    top:5%;
+    left: 70%;
+    width:25%;
+}
+
+
+/* final text */
+
+div.finaltext1 {
+    font-size: 20vw;
+    line-height: 300px;
+    transform: scaleX(0.5);
+    text-align: center;
+}
+
+div.finaltext2 {
+    font-size: 9vw;
+    line-height: 130px;
+    transform: scaleX(0.8);
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.finaltext3 {
+    font-size: 30vw;
+    line-height: 300px;
+    transform: scaleX(0.4);
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.finaltext4 {
+    font-size: 25vw;
+    line-height: 400px;
+    transform: scaleX(0.45);
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.finaltext5 {
+    font-size: 20vw;
+    line-height: 310px;
+    transform: scaleX(0.45);
+    text-align: center;
+    white-space: nowrap;
+}
+
+div.finaltext6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 230px;
+    line-height: 230px;
+    white-space: nowrap;
+    transform: scaleX(0.6)
+}
+
 /* debug */
 div.debug{
     background-color: blue;
 }
+
