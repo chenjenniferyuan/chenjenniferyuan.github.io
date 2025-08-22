@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170.08 141.73">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-dasharray: 0 8.14;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke: #231f20;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 9.84;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 0 7.61;
+      }
+
+      .cls-5 {
+        stroke-dasharray: 0 7.12;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 0 8.13;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 0 7.76;
+      }
+
+      .cls-8 {
+        stroke-dasharray: 0 7.81;
+      }
+
+      .cls-9 {
+        stroke-dasharray: 0 8.26;
+      }
+    </style>
+  </defs>
+  <path class="cls-7" d="M38.8,113.66c24.55,1.58,49.67.52,72.09-10.39"/>
+  <path class="cls-9" d="M121.34,97.12c17.23-12.41,28.47-33.48,18.43-53.7"/>
+  <path class="cls-4" d="M133.06,33.85c-11.66-12.01-29.97-13.74-46.25-10.29"/>
+  <path class="cls-6" d="M75.4,26.98c-13.92,5.5-28.56,16.35-26.77,31.79"/>
+  <path class="cls-8" d="M52.75,69.78c6.71,9.71,19.94,13.21,31.47,10.07"/>
+  <path class="cls-1" d="M95.01,74.63c5.73-4.07,10.72-10.05,10.1-16.63"/>
+  <path class="cls-5" d="M99.74,48.51c-4.53-3.77-11.14-5.61-16.66-4.02"/>
+  <path class="cls-3" d="M76.48,54.14c.62,1.38,1.68,2.7,2.96,3.89"/>
+  <path class="cls-2" d="M83.39,60.94h0M79.84,45.93h0M104.07,54.08h0M87.91,78.6h0M49.44,62.75h0M83.11,24.44h0M137.74,39.82h0M114.34,101.5h0M31.06,113.08h0"/>
+</svg>

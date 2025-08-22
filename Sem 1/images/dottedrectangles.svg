@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 295.18 375.94">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-dasharray: 0 8.96;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14 {
+        stroke: #e6e634;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st1, .st5, .st6, .st10, .st11, .st12, .st13 {
+        stroke-width: 3px;
+      }
+
+      .st2 {
+        stroke-dasharray: 0 5.41;
+      }
+
+      .st2, .st3, .st4, .st7, .st8, .st9, .st14 {
+        stroke-width: 1.83px;
+      }
+
+      .st3 {
+        stroke-dasharray: 0 5.52;
+      }
+
+      .st4 {
+        stroke-dasharray: 0 5.52;
+      }
+
+      .st6 {
+        stroke-dasharray: 0 9.13;
+      }
+
+      .st7 {
+        stroke-dasharray: 0 5.53;
+      }
+
+      .st8 {
+        stroke-dasharray: 0 5.46;
+      }
+
+      .st15 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st16 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st17 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st18 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st19 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st10 {
+        stroke-dasharray: 0 9.1;
+      }
+
+      .st11 {
+        stroke-dasharray: 0 8.84;
+      }
+
+      .st12 {
+        stroke-dasharray: 0 9.09;
+      }
+
+      .st13 {
+        stroke-dasharray: 0 8.89;
+      }
+
+      .st20 {
+        clip-path: url(#clippath);
+      }
+
+      .st14 {
+        stroke-dasharray: 0 5.5;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="367.85" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="367.85" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st0" x="367.85" y="11.72" width="262.51" height="352.51"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st0" x="15.75" y="11.13" width="263.69" height="353.68"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="st0" x="15.75" y="11.13" width="263.69" height="353.68"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="st0" x="15.75" y="11.13" width="263.69" height="353.68"/>
+    </clipPath>
+  </defs>
+  <g class="st20">
+    <line class="st14" x1="624.02" y1="297.45" x2="371.48" y2="336.81"/>
+    <line class="st4" x1="368.77" y1="331.71" x2="368.77" y2="75.1"/>
+  </g>
+  <line class="st14" x1="374.2" y1="71.49" x2="626.74" y2="32.14"/>
+  <g class="st15">
+    <line class="st4" x1="629.45" y1="37.24" x2="629.45" y2="293.85"/>
+    <path class="st9" d="M629.45,296.61h0M629.45,31.72h0M368.77,72.34h0M368.77,337.23h0"/>
+  </g>
+  <line class="st8" x1="396.66" y1="57.19" x2="606.54" y2="48.51"/>
+  <line class="st4" x1="609.26" y1="53.91" x2="609.26" y2="310.53"/>
+  <line class="st8" x1="603.81" y1="313.51" x2="393.94" y2="322.19"/>
+  <line class="st4" x1="391.21" y1="316.79" x2="391.21" y2="60.17"/>
+  <path class="st9" d="M391.21,57.41h0M391.21,322.3h0M609.26,313.28h0M609.26,48.39h0"/>
+  <line class="st7" x1="419.14" y1="43.19" x2="586.33" y2="64.72"/>
+  <line class="st4" x1="589.07" y1="70.59" x2="589.07" y2="327.2"/>
+  <line class="st7" x1="583.59" y1="329.26" x2="416.39" y2="307.73"/>
+  <line class="st4" x1="413.65" y1="301.86" x2="413.65" y2="45.25"/>
+  <path class="st9" d="M413.65,42.49h0M413.65,307.38h0M589.07,329.96h0M589.07,65.07h0"/>
+  <line class="st3" x1="441.2" y1="29.65" x2="566.33" y2="80.71"/>
+  <line class="st4" x1="568.88" y1="87.27" x2="568.88" y2="343.88"/>
+  <line class="st3" x1="563.77" y1="344.55" x2="438.65" y2="293.5"/>
+  <line class="st4" x1="436.1" y1="286.93" x2="436.1" y2="30.32"/>
+  <path class="st9" d="M436.1,27.56h0M436.1,292.45h0M568.88,346.64h0M568.88,81.75h0"/>
+  <line class="st2" x1="544.77" y1="359.59" x2="460.5" y2="279.39"/>
+  <line class="st4" x1="458.54" y1="272.01" x2="458.54" y2="15.4"/>
+  <line class="st2" x1="462.46" y1="16.37" x2="546.73" y2="96.56"/>
+  <line class="st4" x1="548.69" y1="103.94" x2="548.69" y2="360.56"/>
+  <g class="st18">
+    <path class="st9" d="M548.69,363.32h0M548.69,98.42h0M458.54,12.64h0M458.54,277.53h0"/>
+  </g>
+  <g class="st16">
+    <line class="st10" x1="268.95" y1="298" x2="21.74" y2="336.52"/>
+    <line class="st6" x1="17.25" y1="328.09" x2="17.25" y2="76.9"/>
+  </g>
+  <line class="st10" x1="26.24" y1="70.93" x2="273.44" y2="32.41"/>
+  <g class="st17">
+    <line class="st6" x1="277.94" y1="40.84" x2="277.94" y2="292.03"/>
+    <path class="st5" d="M277.94,296.6h0M277.94,31.71h0M17.25,72.33h0M17.25,337.22h0"/>
+  </g>
+  <line class="st12" x1="48.78" y1="57.03" x2="253.2" y2="48.57"/>
+  <line class="st6" x1="257.75" y1="57.52" x2="257.75" y2="308.71"/>
+  <line class="st12" x1="248.66" y1="313.65" x2="44.24" y2="322.11"/>
+  <line class="st6" x1="39.69" y1="313.16" x2="39.69" y2="61.97"/>
+  <path class="st5" d="M39.69,57.41h0M39.69,322.3h0M257.75,313.28h0M257.75,48.39h0"/>
+  <line class="st11" x1="70.91" y1="43.61" x2="233.17" y2="64.5"/>
+  <line class="st6" x1="237.56" y1="74.2" x2="237.56" y2="325.39"/>
+  <line class="st11" x1="228.78" y1="328.82" x2="66.52" y2="307.94"/>
+  <line class="st6" x1="62.14" y1="298.24" x2="62.14" y2="47.05"/>
+  <path class="st5" d="M62.14,42.48h0M62.14,307.37h0M237.56,329.95h0M237.56,65.06h0"/>
+  <line class="st1" x1="92.88" y1="30.94" x2="213.22" y2="80.05"/>
+  <line class="st6" x1="217.37" y1="90.87" x2="217.37" y2="342.06"/>
+  <line class="st1" x1="209.07" y1="343.24" x2="88.73" y2="294.14"/>
+  <line class="st6" x1="84.58" y1="283.31" x2="84.58" y2="32.12"/>
+  <path class="st5" d="M84.58,27.56h0M84.58,292.45h0M217.37,346.63h0M217.37,81.74h0"/>
+  <line class="st13" x1="190.74" y1="357.18" x2="110.24" y2="280.58"/>
+  <line class="st6" x1="107.03" y1="268.39" x2="107.03" y2="17.2"/>
+  <line class="st13" x1="113.46" y1="18.76" x2="193.96" y2="95.35"/>
+  <line class="st6" x1="197.17" y1="107.55" x2="197.17" y2="358.74"/>
+  <g class="st19">
+    <path class="st5" d="M197.17,363.31h0M197.17,98.42h0M107.03,12.63h0M107.03,277.52h0"/>
+  </g>
+</svg>
