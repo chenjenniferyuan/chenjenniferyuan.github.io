@@ -52,7 +52,7 @@ table {
 
 body {
 	line-height: 1; /* for reset */
-	background-color: var(--c-beige);
+	background-color: var(--c-green);
 	color: var(--c-brown);
 	padding: 2rem;
 }
