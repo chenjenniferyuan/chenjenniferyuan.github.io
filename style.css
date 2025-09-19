@@ -64,6 +64,10 @@ body {
 	line-height: 8rem;
 }
 
+.text--mediumlarge{
+	font-size: 5rem;
+}
+
 .text--medium{
 	font-size: 3rem;
 }
