@@ -1,0 +1,9 @@
+div.width50pc{
+    display: block;
+    overflow: hidden;
+    width: 50%;
+}
+
+div.width50pc img{
+    width: 100%;
+}
