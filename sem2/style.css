@@ -59,6 +59,7 @@ body {
 	line-height: 1; /* for reset */
 	background-color: var(--c-green);
 	color: var(--c-brown);
+	font-family: fungal;
 	/* padding: 2rem; */
 }
 
@@ -67,12 +68,17 @@ img, video{
     display: block;
 }
 
+@font-face {
+	font-family: fungal;
+	src: url(fonts/fungal1000.woff);
+}
+
 /* text */
 
 	/* txt-size */
 
 .text--extralarge{
-	font-size: var(--t-extralarge);
+	font-size: 12vw;
 }
 
 .text--large{
@@ -91,6 +97,19 @@ img, video{
 .text--body{
 	font-size: 1.3rem;
 	line-height: 1.4rem;
+}
+
+.text--body--timesoverride{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.text--extralarge:hover{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: var(--t-extralarge);
+}
+
+.text--body:hover{
+	font-family: 'Times New Roman', Times, serif;
 }
 
 	/* txt-formatting */
@@ -131,15 +150,15 @@ div.text--centrealign{
 
 /* colours */
 
-div.bg--green{
+.bg--green{
 	background-color: var(--c-green);
 }
 
-div.bg--brown{
+.bg--brown{
 	background-color: var(--c-brown)
 }
 
-div.bg--beige{
+.bg--beige{
 	background-color: var(--c-beige)
 }
 
@@ -201,6 +220,10 @@ div.border{
 
 	/* layout-position */
 
+.position--fixed{
+	position: fixed;
+}
+
 .position--relative{
 	position:relative;
 }	
@@ -221,6 +244,12 @@ div.border{
 
 .position--top0{
 	top: 0;
+}
+
+	/* layout-display */
+
+.display--block{
+	display: block;
 }
 
 /* margins */
@@ -297,6 +326,10 @@ div.border{
 
 	/* marg-left */
 
+.ml--auto{
+	margin-left: auto;
+}
+
 .ml--5pc{
 	margin-left: 5%;
 }
@@ -321,11 +354,9 @@ div.border{
 	margin-left: 30%;
 }
 
-
 .ml--40pc{
 	margin-left: 40%;
 }
-
 
 .ml--50pc{
 	margin-left: 50%;
@@ -333,6 +364,18 @@ div.border{
 
 .ml--60pc{
 	margin-left: 60%;
+}
+
+.ml--70pc{
+	margin-left: 70%;
+}
+
+.ml--80pc{
+	margin-left: 80%;
+}
+
+.ml--90pc{
+	margin-left: 90%;
 }
 
 .ml--35px{
@@ -485,6 +528,7 @@ div.blendingmode--multiply{
 	mask-repeat: no-repeat;
 	mask-position: center;
 	mask-size: cover;
+	pointer-events: none;
 }
 
 /* effects */
@@ -508,6 +552,21 @@ div.blendingmode--multiply{
 	}
 }
 
+/* clock */
+
+.clock{
+	font-family: 'Times New Roman', Times, serif;
+	z-index: 99;
+	color: var(--c-brown);
+}
+
+.clock--green{
+	color: var(--c-green);
+}
+
+.clock--brown{
+	color: var(--c-brown);
+}
 
 /* debug */
 .debug{
