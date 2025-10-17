@@ -138,7 +138,7 @@ body {
 	line-height: 1; /* for reset */
 	background-color: var(--c-green);
 	color: var(--c-brown);
-	font-family: fungal;
+	font-family: 'Times New Roman', Times, serif;
 	/* padding: 2rem; */
 }
 
@@ -149,8 +149,8 @@ video {
 }
 
 @font-face {
-	font-family: fungal;
-	src: url(fonts/fungal1000.woff);
+	font-family: manifont;
+	src: url(fonts/manifont.woff);
 }
 
 /* text */
@@ -159,6 +159,8 @@ video {
 
 .text--extralarge {
 	font-size: 12vw;
+	line-height: 13.5rem;
+	font-family: manifont;
 }
 
 .text--large {
@@ -175,12 +177,15 @@ video {
 }
 
 .text--body {
-	font-size: 1.3rem;
-	line-height: 1.4rem;
+	font-size: 1.5rem;
+	line-height: 1.6rem;
+	font-family: manifont;
 }
 
 .text--body--timesoverride {
 	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
 }
 
 .text--extralarge:hover {
@@ -190,6 +195,8 @@ video {
 
 .text--body:hover {
 	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6rem;
+	line-height: 1.6rem;
 }
 
 /* txt-formatting */
@@ -281,6 +288,12 @@ div.border {
 	column-gap: 1rem;
 }
 
+/* z-index */
+
+.z--99 {
+	z-index: 99;
+}
+
 .z--2 {
 	z-index: 2;
 }
@@ -311,7 +324,13 @@ div.border {
 	position: absolute;
 }
 
-.position--absolute--centred {
+.position--absolute--t60pcl50pc {
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.position--absolute--t50pcl50pc {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -323,6 +342,11 @@ div.border {
 
 .position--top0 {
 	top: 0;
+}
+
+.position--bottomright{
+	bottom: 1rem;
+	right: 1rem;
 }
 
 /* layout-display */
@@ -489,7 +513,11 @@ div.border {
 }
 
 .pt--50px {
-	padding-top: 200px;
+	padding-top: 50px;
+}
+
+.pt--100px {
+	padding-top: 100px;
 }
 
 .pt--150px {
@@ -524,6 +552,10 @@ div.width--5pc {
 
 div.width--10pc {
 	width: 10%;
+}
+
+div.width--15pc {
+	width: 15%;
 }
 
 div.width--16pc {
@@ -585,6 +617,14 @@ div.blendingmode--multiply {
 	mix-blend-mode: multiply;
 }
 
+.image--opacityhoverchange {
+	opacity: 1;
+}
+
+.image--opacityhoverchange:hover {
+	opacity: 0;
+}
+
 /* grid */
 
 .grid {
@@ -612,7 +652,7 @@ div.blendingmode--multiply {
 
 /* effects */
 
-.floating {
+/* .floating {
 	position: relative;
 	animation: float 4.5s ease-in-out infinite;
 }
@@ -629,23 +669,44 @@ div.blendingmode--multiply {
 	100% {
 		transform: translateY(0);
 	}
+} */
+
+.typewriter {
+
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em orange; /* The typwriter cursor */
+	/* white-space: nowrap; Keeps the content on a single line */
+	width: 0;
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	white-space: nowrap;
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	typing 3.5s steps(30, end),
+	blink-caret .5s step-end infinite;
 }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
 
 /* clock */
 
 .clock {
 	font-family: 'Times New Roman', Times, serif;
-	/* i added this instead of using class position--fixed because you only use this layout once */
-	/* you can delete position fixed and width-5pc if you don't use it anywhere else on the website */
-	/* you had the clock wrapped inside another div but we can style the clock directly like this so it's cleaner */
-	/* because it's already in a div itself */
 	position: fixed;
 	top: 1rem;
 	right: 2rem;
-	/* prevents users from interacting with it in case you wanna put something near/under it later on */
 	pointer-events: none;
 	z-index: 99;
-	/* local variable (only used within the clock class, so we can change it easily in javascript without needing extra classes) */
 	--clock-color: var(--c-brown);
 	color: var(--clock-color);
 }
