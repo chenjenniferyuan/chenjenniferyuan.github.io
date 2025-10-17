@@ -177,7 +177,7 @@ video {
 }
 
 .text--body {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 1.6rem;
 	font-family: manifont;
 }
@@ -586,8 +586,16 @@ div.width--60pc {
 	width: 60%;
 }
 
+.div.width--70pc{
+	width: 70%;
+}
+
 div.width--75pc {
 	width: 75%;
+}
+
+div.width--80pc{
+	width: 80%;
 }
 
 /* images */
