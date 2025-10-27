@@ -39,7 +39,6 @@ tt,
 var,
 b,
 u,
-i,
 center,
 dl,
 dt,
@@ -131,7 +130,7 @@ table {
 	--t-extralarge: 13vw;
 	--t-large: 10rem;
 	--t-mediumlarge: 5rem;
-	--t-medium: 3rem;
+	--t-medium: 2rem;
 }
 
 body {
@@ -310,6 +309,11 @@ div.border {
 	z-index: -1;
 }
 
+.pointerevents--none{
+	pointer-events: none;
+}
+
+
 /* layout-position */
 
 .position--fixed {
@@ -359,6 +363,14 @@ div.border {
 
 /* marg-top  */
 
+.mt--neg50px {
+	margin-top: -50px;
+}
+
+.mt--neg100px {
+	margin-top: -100px;
+}
+
 .mt--neg400px {
 	margin-top: -400px;
 }
@@ -373,6 +385,10 @@ div.border {
 
 .mt--neg700px {
 	margin-top: -700px;
+}
+
+.mt--neg1000px {
+	margin-top: -1100px;
 }
 
 .mt--10px {
@@ -390,6 +406,11 @@ div.border {
 .mt--50px {
 	margin-top: 50px;
 }
+
+.mt--70px {
+	margin-top: 70px;
+}
+
 
 .mt--100px {
 	margin-top: 100px;
@@ -532,6 +553,10 @@ div.border {
 	padding-top: 300px;
 }
 
+.pt--400px {
+	padding-top: 400px;
+}
+
 .pb--50px {
 	padding-bottom: 50px;
 }
@@ -576,6 +601,14 @@ div.width--25pc {
 
 div.width--30pc {
 	width: 30%;
+}
+
+div.width--35pc {
+	width: 35%;
+}
+
+div.width--40pc {
+	width: 40%;
 }
 
 div.width--50pc {
@@ -633,7 +666,7 @@ div.blendingmode--multiply {
 	opacity: 0;
 }
 
-/* grid */
+/* grid NOT IN USE */
 
 .grid {
 	display: grid;
@@ -658,53 +691,11 @@ div.blendingmode--multiply {
 	pointer-events: none;
 }
 
-/* effects */
+/* svg */
 
-/* .floating {
-	position: relative;
-	animation: float 4.5s ease-in-out infinite;
+.svgfilter--green{
+	filter: invert(52%) sepia(19%) saturate(570%) hue-rotate(49deg) brightness(93%) contrast(83%);
 }
-
-@keyframes float {
-	0% {
-		transform: translateY(0);
-	}
-
-	50% {
-		transform: translateY(-15px);
-	}
-
-	100% {
-		transform: translateY(0);
-	}
-} */
-
-.typewriter {
-
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em orange; /* The typwriter cursor */
-	/* white-space: nowrap; Keeps the content on a single line */
-	width: 0;
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	white-space: nowrap;
-	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	typing 3.5s steps(30, end),
-	blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
-
 
 /* clock */
 
